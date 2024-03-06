@@ -9,8 +9,6 @@ library('ggplot2')
 # setting seed for reproducability
 set.seed(123)
 
-setwd("/home/jovyan/Stat_assignment")
-
 # loading raw data
 biomarkers <- as.data.table(read.xlsx("biomarkers.xlsx"))
 covariates <- as.data.table(read.xlsx("covariates.xlsx"))
